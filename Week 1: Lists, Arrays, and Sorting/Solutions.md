@@ -35,7 +35,7 @@
           return ans
     ```
 - [Sort Colors](https://leetcode.com/problems/sort-colors/description/)
-  - ```
+  - ```py
     class Solution:
       def sortColors(self, nums: List[int]) -> None:
           """
