@@ -12,8 +12,7 @@
                   left += 1
               elif numbers[left] + numbers[right] > target:
                   right -= 1
-              else:
-                  return [left + 1, right + 1]
+              return [left + 1, right + 1]
     ```
 - [Products of array discluding self](https://leetcode.com/problems/product-of-array-except-self/description/)
   - ```py
